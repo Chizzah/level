@@ -12,8 +12,8 @@ export default function Home() {
         <section className="container w-full h-full mx-auto text-white">
           <div className="flex flex-col items-center justify-center w-full h-full mt-12">
             <h1 className="mb-12 font-bold leading-snug text-9xl text-primary">
-              LeVeL up your
-              <br /> <span className="ml-48">your life</span>
+              LeVeL up
+              <br /> <span className="ml-72">your life</span>
             </h1>
             <p className="mb-20 font-semibold text-primary">
               LeVel makes local art more accessible for local art lovers. No
