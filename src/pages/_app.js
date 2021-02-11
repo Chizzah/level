@@ -1,12 +1,17 @@
-import Layout from "../layouts/Layout";
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 import "../styles/tailwind.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Header />
+      <main>
+        <Component {...pageProps} />
+      </main>
+      <Footer />
+    </>
   );
 }
 
